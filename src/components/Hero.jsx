@@ -1,4 +1,7 @@
 import { productCategories } from '../data/products';
+import heroBannerOil from '../assets/hero-banner-oil.jpg';
+import heroBannerRice from '../assets/hero-banner-rice.jpg';
+import vegiesHero from '../assets/vegies-hero.png';
 
 export default function Hero() {
   const selectProductCategory = (categoryId) => {
@@ -42,17 +45,17 @@ export default function Hero() {
         <div className="hero-art reveal" aria-label="Indian agriculture and global trade visual">
           <img
             className="hero-photo hero-photo-main"
-            src="/src/assets/hero-banner-rice.jpg"
+            src={heroBannerRice}
             alt="Indian agricultural field"
           />
           <img
             className="hero-photo hero-photo-cargo"
-            src="/src/assets/vegies-hero.png"
+            src={vegiesHero}
             alt="Cargo containers prepared for trade"
           />
           <img
             className="hero-photo hero-photo-produce"
-            src="/src/assets/hero-banner-oil.jpg"
+            src={heroBannerOil}
             alt="Coconut produce"
           />
           <div className="hero-coordinate">PUDUCHERRY / INDIA</div>

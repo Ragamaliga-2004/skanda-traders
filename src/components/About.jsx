@@ -1,3 +1,6 @@
+import aboutRice from '../assets/about-rice.jpg';
+import aboutRiceTwo from '../assets/about-rice-2.jpg';
+
 export default function About() {
   const flow = ['Source', 'Select', 'Supply', 'Deliver'];
 
@@ -7,13 +10,13 @@ export default function About() {
         <div className="about-media reveal">
           <img
             className="about-large"
-            src="/src/assets/about-rice.jpg"
+            src={aboutRice}
             alt="Indian agricultural landscape"
             loading="lazy"
           />
           <img
             className="about-small"
-            src="/src/assets/about-rice-2.jpg"
+            src={aboutRiceTwo}
             alt="Rice grains prepared for trade"
             loading="lazy"
           />
