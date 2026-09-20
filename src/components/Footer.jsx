@@ -1,4 +1,4 @@
-import logo from '../assets/skanda-traders-logo.jpg';
+import logo from '../assets/skanda-traders-logo.webp';
 import { productCategories } from '../data/products';
 
 const footerLinks = [

@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import logo from '../assets/skanda-traders-logo.jpg';
+import logo from '../assets/skanda-traders-logo.webp';
 
 const links = [
   ['Home', 'home'],

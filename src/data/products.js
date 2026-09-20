@@ -1,9 +1,9 @@
-import bottomRice from '../assets/bottom-rice.jpg';
-import coconut from '../assets/coconut.jpg';
-import jaggery from '../assets/jaggery.jpg';
-import middleRice from '../assets/middle-rice.jpg';
-import midOil from '../assets/mid-oil.jpg';
-import vegies from '../assets/vegies.jpg';
+import bottomRice from '../assets/bottom-rice.webp';
+import coconut from '../assets/coconut.webp';
+import jaggery from '../assets/jaggery.webp';
+import middleRice from '../assets/middle-rice.webp';
+import midOil from '../assets/mid-oil.webp';
+import vegies from '../assets/vegies.webp';
 
 export const productCategories = [
   {

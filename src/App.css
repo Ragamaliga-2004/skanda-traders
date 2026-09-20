@@ -80,7 +80,7 @@ p { color: var(--muted); line-height: 1.8; }
 
 /* Hero */
 .hero { position: relative; min-height: 760px; overflow: hidden; background: var(--forest); color: var(--white); isolation: isolate; }
-.hero::before { position: absolute; inset: 0; z-index: -3; content: ''; background: linear-gradient(90deg, rgba(21, 37, 29, 0.98), rgba(21, 37, 29, 0.78) 45%, rgba(21, 37, 29, 0.2)), url('https://images.unsplash.com/photo-1534531173927-aeb928d54385?auto=format&fit=crop&w=2200&q=88') center/cover; }
+.hero::before { position: absolute; inset: 0; z-index: -3; content: ''; background: linear-gradient(90deg, rgba(21, 37, 29, 0.98), rgba(21, 37, 29, 0.78) 45%, rgba(21, 37, 29, 0.2)), url('./assets/hero-banner-rice.webp') center/cover; }
 .hero::after { position: absolute; inset: 0; z-index: -2; content: ''; background: linear-gradient(180deg, rgba(21, 37, 29, 0.1), var(--forest) 94%); }
 .hero-map { position: absolute; top: 16vh; right: -5vw; width: min(52vw, 700px); opacity: 0.42; }
 .hero-map svg, .world-panel svg { overflow: visible; }
@@ -154,7 +154,7 @@ p { color: var(--muted); line-height: 1.8; }
 .why-grid h3 { margin: 14px 0 14px; font-size: 0.78rem; letter-spacing: 0.14em; text-transform: uppercase; }
 .why-grid p { color: rgba(255, 253, 248, 0.6); font-size: 0.88rem; }
 .global-trade { position: relative; min-height: 650px; overflow: hidden; display: flex; align-items: center; }
-.global-trade::before { position: absolute; inset: 0; content: ''; opacity: 0.16; background: linear-gradient(90deg, var(--forest), transparent), url('https://images.unsplash.com/photo-1494412519320-aa613dfb7738?auto=format&fit=crop&w=2100&q=84') center/cover; }
+.global-trade::before { position: absolute; inset: 0; content: ''; opacity: 0.16; background: linear-gradient(90deg, var(--forest), transparent), url('./assets/hero-banner-oil.webp') center/cover; }
 .global-content { position: relative; display: grid; grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr); gap: 58px; align-items: center; }
 .global-copy p { max-width: 420px; margin: 24px 0 30px; }
 .world-panel { position: relative; min-height: 440px; overflow: hidden; border: 1px solid rgba(231, 193, 121, 0.23); background: linear-gradient(rgba(255, 253, 248, 0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 253, 248, 0.04) 1px, transparent 1px); background-size: 34px 34px; }

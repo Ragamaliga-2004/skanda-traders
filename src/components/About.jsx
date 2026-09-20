@@ -1,5 +1,5 @@
-import aboutRice from '../assets/about-rice.jpg';
-import aboutRiceTwo from '../assets/about-rice-2.jpg';
+import aboutRice from '../assets/about-rice.webp';
+import aboutRiceTwo from '../assets/about-rice-2.webp';
 
 export default function About() {
   const flow = ['Source', 'Select', 'Supply', 'Deliver'];
