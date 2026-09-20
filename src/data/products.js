@@ -65,4 +65,9 @@ export const storyProducts = [
     image: jaggery,
     copy: 'A traditional Indian sweetener supplied with a focus on dependable sourcing.',
   },
+  {
+    title: 'Edible Oils',
+    image: midOil,
+    copy: 'Practical oil supply for food businesses, wholesale requirements and trade needs.',
+  },
 ];
