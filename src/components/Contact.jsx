@@ -24,16 +24,18 @@ export default function Contact() {
     event.preventDefault();
     const subject = `Trade enquiry from ${form.company || form.name}`;
     const body = [
-      'Skanda Traders enquiry',
+      '𝗦𝗞𝗔𝗡𝗗𝗔 𝗧𝗥𝗔𝗗𝗘𝗥𝗦 𝗘𝗡𝗤𝗨𝗜𝗥𝗬',
+      '────────────────────────',
       '',
-      `Full Name: ${form.name}`,
-      `Company Name: ${form.company}`,
-      `Business Email: ${form.email}`,
-      `Phone: ${form.phone}`,
-      `Product Interested In: ${form.product}`,
-      `Quantity / Requirement: ${form.quantity}`,
+      `𝗙𝘂𝗹𝗹 𝗡𝗮𝗺𝗲: ${form.name}`,
+      `𝗖𝗼𝗺𝗽𝗮𝗻𝘆 𝗡𝗮𝗺𝗲: ${form.company}`,
+      `𝗕𝘂𝘀𝗶𝗻𝗲𝘀𝘀 𝗘𝗺𝗮𝗶𝗹: ${form.email}`,
+      `𝗣𝗵𝗼𝗻𝗲: ${form.phone}`,
+      `𝗣𝗿𝗼𝗱𝘂𝗰𝘁 𝗜𝗻𝘁𝗲𝗿𝗲𝘀𝘁𝗲𝗱 𝗜𝗻: ${form.product}`,
+      `𝗤𝘂𝗮𝗻𝘁𝗶𝘁𝘆 / 𝗥𝗲𝗾𝘂𝗶𝗿𝗲𝗺𝗲𝗻𝘁: ${form.quantity}`,
       '',
-      'Message:',
+      '𝗠𝗘𝗦𝗦𝗔𝗚𝗘',
+      '────────',
       form.message,
     ].join('\n');
 
