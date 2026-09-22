@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ragamaliga-2004.github.io/skanda-traders/sitemap.xml
